@@ -1,0 +1,7 @@
+{
+    "semantic": 0.6,
+    "bm25": 0.4,
+    "cluster_boost": 1.0,
+    "level_boost": 1.0,
+    "skill_bonus": 0.02
+}

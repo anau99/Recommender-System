@@ -1,0 +1,59 @@
+[
+  {
+    "id": 300,
+    "original_text": "PNJ Jewelry Production And Trading Company Limited (PNJP)...",
+    "extracted": {
+      "domain": "General",
+      "years_exp": null,
+      "level": null,
+      "skills": []
+    }
+  },
+  {
+    "id": 483,
+    "original_text": "Saigon Technology - Accelerate Software Development...",
+    "extracted": {
+      "domain": "IT",
+      "years_exp": null,
+      "level": null,
+      "skills": [
+        "Software Development",
+        "Programming"
+      ]
+    }
+  },
+  {
+    "id": 575,
+    "original_text": "Saigon Technology - Accelerate Software Development...",
+    "extracted": {
+      "domain": "IT",
+      "years_exp": null,
+      "level": null,
+      "skills": [
+        "Software Development"
+      ]
+    }
+  },
+  {
+    "id": 830,
+    "original_text": "Saigon Technology - Accelerate Software Development...",
+    "extracted": {
+      "domain": "IT",
+      "years_exp": null,
+      "level": null,
+      "skills": [
+        "Software Development"
+      ]
+    }
+  },
+  {
+    "id": 899,
+    "original_text": "Relia Software - Reliable Software Development Company...",
+    "extracted": {
+      "domain": "IT",
+      "years_exp": null,
+      "level": null,
+      "skills": []
+    }
+  }
+]
