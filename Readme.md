@@ -281,10 +281,3 @@ python -m src.recommender.weight_search
 - **LLM-as-a-judge** — `src/evaluation/evaluate_with_gemini.py` (Google Gemini) and `src/evaluation/evaluation_hermes.py` (Hermes-2-Pro via Hugging Face Inference API)
 
 ---
-
-## Notes
-
-- `src/main_old.py` is a previous version of the pipeline, kept for reference/history; **`src/main.py` is the actively used entry point**.
-- Several legacy modules in `src/jd_processing/` (`skill_extractor.py`, `jd_summarizer.py`, `process_jd_pipeline.py`, `run_jd_processing.py`) are fully commented out — they document earlier approaches (regex-based extraction, local BART summarization) that were replaced by the single LLM call in `jd_quick_extractor.py`.
-- Some scripts (`clustering/*.py`, `src/evaluation/create_dummy_testset.py`, `src/evaluation/evaluate_with_gemini.py`) contain a hard-coded `BASE_DIR`/`PROJECT_ROOT` from the original author's machine — update these paths (or pass the equivalent CLI arguments) before running them in a different environment.
-- All source comments have been translated to English for readability; code logic is unchanged.
